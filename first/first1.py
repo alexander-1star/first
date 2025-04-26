@@ -1,1 +1,1 @@
-print("helllol lworld")
+print("helllworld")
