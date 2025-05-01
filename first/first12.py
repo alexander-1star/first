@@ -2,7 +2,7 @@ import random
 
 class Student: 1 usage new
 
-def __init__(self, name):
+def __init__(self, name): 
 self.name = name
 self.gladness = 50
 self.progress = 0
