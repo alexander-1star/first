@@ -1,30 +1,18 @@
-import random
+from  random import randint
+num=randint(1,10)
+print("Try and guess the number between 1 and 10")
 
-class Student: 1 usage new
+x=0
 
-def __init__(self, name): 
-self.name = name
-self.gladness = 50
-self.progress = 0
-self.alive = True
+for x in range(3):
+    guess=int(input("Type a number between 1 an 10 :"))
+    print(guess)
+    if guess==num:
+        print("Good job you got  it")
+        break
+    elif guess!=num and x<3:
+        print("Wrong answer try again")
+    else:
+        print("The correct answer was",num)
 
-def to_study(self): 1 usage new
-print('Time to study')
-self.progress += 0.05
-self.gladness -= 0.01
 
-def to_sleep(self): 1 usage new
-print('I will sleep')
-self.gladness += 1.5
-
-def
-
-to_chill(self): 1 usage new
-print('Rest time')
-self.gladness += 0.4
-
-self.progress -= 0.1
-
-def
-
-is_alive(self): lusage new
