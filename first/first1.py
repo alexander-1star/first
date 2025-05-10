@@ -1,8 +1,19 @@
-print("please type a number:")
-low=int(input())
-print("Now type a bigger number:")
-high=int(input())
+class Grandparent:
+    height = 150
+    hair = 'brown'
+    eyes = 'hazel'
+    def __init__(self):
 
-i=range(low,high)
-for n in i:
-    print(n)
+
+class Parent(Grandparent):
+    height = 220
+    hair = 'brown'
+    eye = ' blue'
+
+
+class Child(Parent):
+    eyes = 'green'
+    def __init__(self):
+        print(self.height)
+        print(self.hair)
+        print(self.eyes)
