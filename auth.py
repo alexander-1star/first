@@ -1,11 +1,12 @@
-class car:
-    def __init__(self, brand, model, year):
-        self.brand = brand
-        self.model = model
-        self.year = year
+class Employee:
+    def __init__(self, name, role, salary):
+        self.name = name
+        self.role = role
+        self.salary = salary
 
-    def get_info(self):
-        return f"{self.year} {self.brand} {self.model}"
+    def get_salary_info(self):
+        return f"Salary {self.name}: {self.salary}: {self.role}"
 
-
+employee = Employee("Bob", "Engineer", 1200)
+print(employee.get_salary_info())
 
