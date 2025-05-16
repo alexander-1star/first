@@ -59,4 +59,5 @@ class BuilderBob(BlueprintDesigner, partsManager, ConstructionWorker):
 
 bob = BuilderBob()
 bob.finished("Garage")
+print("Youre ready to see")
 
